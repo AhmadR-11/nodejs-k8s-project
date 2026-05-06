@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: ahmad3740/nodejs-getting-started:1.0
+        image: ahmad3740/nodejs-app:2f3d7c89c03968a0b583e3b5376c52a297bc011b
         ports:
         - containerPort: 5006
