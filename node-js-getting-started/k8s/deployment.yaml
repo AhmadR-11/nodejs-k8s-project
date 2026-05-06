@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: nodejs-app
-        image: ahmad3740/nodejs-app:2f3d7c89c03968a0b583e3b5376c52a297bc011b
+        image: ahmad3740/nodejs-app:f318dda1f8a1c99cd4fb8a5e8586ab3c24e1dede
         ports:
         - containerPort: 5006
