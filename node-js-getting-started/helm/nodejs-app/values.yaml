@@ -1,0 +1,11 @@
+replicaCount: 2
+
+image:
+  repository: ahmad3740/nodejs-app # IMPORTANT: Change ahmad3740 to your actual Docker Hub username!
+  tag: "latest"
+  pullPolicy: IfNotPresent
+
+service:
+  type: NodePort
+  port: 80
+  targetPort: 5006
