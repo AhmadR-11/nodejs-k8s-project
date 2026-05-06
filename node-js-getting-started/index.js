@@ -10,9 +10,9 @@ app.set('views', path.join(__dirname, 'views'))
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res) => {
-  console.log(`Rendering 'pages/index' for route '/'`)
-  res.render('pages/index')
-})
+  res.send('Hello DevOps World v2 🚀');
+});
+
 
 const server = app.listen(port, () => {
   console.log(`Listening on ${port}`)
