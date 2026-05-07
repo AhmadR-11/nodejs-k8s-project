@@ -2,7 +2,7 @@ replicaCount: 2
 
 image:
   repository: ahmad3740/nodejs-app # IMPORTANT: Change ahmad3740 to your actual Docker Hub username!
-  tag: "068fc620c9baad91df174f9f628a2b5d68436bd5"
+  tag: "23f33a2b0735766c242503a84e26de3e2768d425"
   pullPolicy: IfNotPresent
 
 service:
